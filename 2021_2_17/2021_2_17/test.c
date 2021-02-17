@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+//利用递归实现打印一个整数的每一位
+void print(int n)
+{
+	if (n > 9)
+	{
+		print(n / 10);
+	}
+	printf("%d ", n % 10);
+}
+int main()
+{
+	int num = 0;
+	scanf("%d", &num);
+	print(num);
+	return 0;
+}
