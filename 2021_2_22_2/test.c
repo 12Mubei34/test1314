@@ -21,7 +21,7 @@ void print(int *arr)
 	int i = 0;
 	for (i = 0; i < 5; i++)
 	{
-		printf("%d ", *(p+i));
+		printf("%d ", *(p + i));
 	}
 }
 
